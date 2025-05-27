@@ -1,3 +1,4 @@
+//Program to check wheather the enter no. of days is divide by 365 or not.
 #include <iostream>
 using namespace std;
 int main()
@@ -8,10 +9,10 @@ int main()
    //year= ();
     if(a%365==0)
     {
-        cout<<"the days are year";
+        cout<<"The days are equal to year(365 or divisible of year)";
     }
    else
    {
-    cout<<"the days are not a year";
+    cout<<"The days are not equal to year(365)";
    }
 }
